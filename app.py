@@ -19,7 +19,6 @@ def btnfunc():
 
     hashed_data = bcrypt.hashpw(data_to_hash, bcrypt.gensalt())
 
-    #hashed_data = hashlibrary(data_to_hash)
     label2 = tk.Label(root, text=hashed_data)
     label2.pack()
 
