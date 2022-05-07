@@ -23,7 +23,7 @@ def btnfunc():
     label2.pack()
 
 
-btn1 = tk.Button(root, text="Im button", command=btnfunc)
+btn1 = tk.Button(root, text="Hash", command=btnfunc)
 btn1.pack()
 
 
